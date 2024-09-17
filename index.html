@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div style="height: 100vh; background: #000; padding-top: 80px">
+      <div class="w-[500px] p-10 mx-auto bg-teal-200">
+        <input
+          class="rounded-l-lg px-2 py-1"
+          id="inputBox"
+          type="text"
+          placeholder="Enter your todo"
+        />
+        <button class="px-2 py-1 rounded-r-lg bg-teal-400" id="addTaskBtn">
+          Add Task
+        </button>
+        <div class="mt-4">
+          <p class="mb-2">To Do List</p>
+          <div id="toDoContainer" class="flex flex-col gap-3">
+            <div class="flex gap-2 justify-start items-center">
+              <!-- <input type="checkbox" />
+              <h1 class="text-xl font-bold">ok</h1>
+              <button class="bg-red-800 ml-12 p-1 rounded-md text-sm text-white">delete</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+<!--
+Build a to do app. 
+    Add task
+    ⁠mark task as done and use css to show line through or green color
+    ⁠remove task
+    ⁠edit task
+ -->
